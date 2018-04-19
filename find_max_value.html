@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script>
+			function findMaxVal(){
+				var firstNum = prompt("Enter first integer");
+				var secobdNum = prompt("Enter secont integer");
+				var thirdNum = prompt("Enter third integer");
+				var max = firstNum;
+				
+				if(secobdNum > max){
+					var max = firstNum;
+				}
+				if(thirdNum > max){
+					var max = thirdNum;
+				}
+				
+				return max;
+			}
+			
+			max = findMaxVal();
+			document.write("The maximum value is:" + max)
+		</script>
+	</head>
+
+	<body>
+		
+	</body>
+</html>
+
